@@ -26,4 +26,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
   });
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-05H8109028"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-05H8109028');
+</script>
     
