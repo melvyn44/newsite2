@@ -18,12 +18,4 @@ document.addEventListener("DOMContentLoaded", function () {
   const sliderTrack = document.querySelector('.slider-track');
   const nextBtn = document.getElementById('next');
   let currentIndex = 0;
-  
-  nextBtn.addEventListener('click', () => {
-    currentIndex++;
-    if (currentIndex >= 2) { // Ici on a 2 groupes
-      currentIndex = 0; // Retour au début
-    }
-    sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
-  });
 
